@@ -5,7 +5,6 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical"
-  android:background="@color/colorAccent"
   tools:context=".MainActivity">
 
 
@@ -14,10 +13,10 @@
     android:layout_height="wrap_content"
     android:text="@string/txtTituloSMS"
     android:gravity="center"
-    android:layout_margin="10sp"
+    android:layout_margin="8sp"
     android:textColor="@color/colorAccent"
     android:background="@color/colorPrimaryDark"
-    android:textSize="35sp"/>
+    android:textSize="25sp"/>
 
   <EditText
     android:id="@+id/editSMSPara"
@@ -25,7 +24,7 @@
     android:layout_height="wrap_content"
     android:ems="10"
     android:hint="@string/txtHintPara"
-    android:layout_margin="10sp"
+    android:layout_margin="8sp"
     android:inputType="phone" />
 
   <EditText
@@ -33,15 +32,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:ems="10"
-    android:layout_margin="10sp"
+    android:layout_margin="8sp"
     android:hint="@string/txtHintMensagem"
     android:gravity="start|top"
-    android:lines="4"
+    android:lines="3"
     android:inputType="textMultiLine" />
 
   <Button
     android:id="@+id/btnEnviar"
-    android:layout_margin="10sp"
+    android:layout_margin="8sp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/btnEnviarSMS" />
